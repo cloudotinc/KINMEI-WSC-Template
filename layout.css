@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    color: #141418;
+    background-color: #f7f7f7;
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #141418;
+}
+
+h1 {
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 76.8px;
+    letter-spacing: -3.2px;
+}
+
+.fonth2 {
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76.8px;
+}
+
+.fonth3 {
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 57.6px;
+    letter-spacing: -2.4px;
+}
+
+.fonth4 {
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.4px;
+}
+
+.fontp {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.gap1 {
+    gap: 1rem;
+}
+
+.gap2 {
+    gap: 2rem;
+}
+
+.gap3 {
+    gap: 3rem;
+}
+
+.gap4 {
+    gap: 4rem;
+}
+
+.gap5 {
+    gap: 5rem;
+}
+
+.gap6 {
+    gap: 6rem;
+}
+
+.gap7 {
+    gap: 7rem;
+}
+
+.gap8 {
+    gap: 8rem;
+}
+
+.gap9 {
+    gap: 9rem;
+}
+
+.gap10 {
+    gap: 10rem;
+}
+
+.mt1 {
+    margin-top: 1rem;
+}
+
+.mt2 {
+    margin-top: 2rem;
+}
+
+.mt3 {
+    margin-top: 3rem;
+}
+
+.mt4 {
+    margin-top: 4rem;
+}
+
+.mt5 {
+    margin-top: 5rem;
+}
+
+.mt6 {
+    margin-top: 6rem;
+}
+
+.mt7 {
+    margin-top: 7rem;
+}
+
+.mt8 {
+    margin-top: 8rem;
+}
+
+.mt9 {
+    margin-top: 9rem;
+}
+
+.mt10 {
+    margin-top: 10rem;
+}
+
+.pt1 {
+    padding-top: 1rem;
+}
+
+.pt2 {
+    padding-top: 2rem;
+}
+
+.pt3 {
+    padding-top: 3rem;
+}
+
+.pt4 {
+    padding-top: 4rem;
+}
+
+.pt5 {
+    padding-top: 5rem;
+}
+
+.pt6 {
+    padding-top: 6rem;
+}
+
+.pt7 {
+    padding-top: 7rem;
+}
+
+.pt8 {
+    padding-top: 8rem;
+}
+
+.pt9 {
+    padding-top: 9rem;
+}
+
+.pt10 {
+    padding-top: 10rem;
+}
+.text-center{
+    text-align: center;
+}
+.daysp{
+    padding: 1rem 3.6rem;
+    border-radius: 50rem;
+    background: #f7f7f759;
+    font-size: 2rem;
+}
+
+.step-card-front h4{
+    letter-spacing: 1.6px;
+}
+
+.about-data{
+    display: grid;
+    grid-template-columns: 23rem 1fr;
+}
